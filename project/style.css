@@ -1,16 +1,17 @@
-*
-{
+* {
     overflow-x: hidden;
 
-}.main {
+}
+
+.main {
     height: 500px;
-    width: auto;
+    width: 1500px;
     display: flex;
 }
 
 .main1 {
     height: 500px;
-    width: 1000px;
+    width: 900px;
 }
 
 .main1 img {
@@ -39,6 +40,8 @@
     width: 80px;
     height: 40px;
     padding-left: 25px;
+    text-decoration: none;
+
 
 
 }
@@ -50,6 +53,8 @@
     height: 40px;
     padding-left: 25px;
     color: aliceblue;
+    text-decoration: none;
+
 }
 
 .text {
@@ -82,7 +87,7 @@
 
 .main2 {
     height: 500px;
-    width: 500px;
+    width: auto;
 }
 
 .main2 img {
@@ -146,6 +151,74 @@
     text-align: center;
     padding-top: 60px;
 
+}
+
+.foot2_0 {
+    height: auto;
+    width: auto;
+    display: flex;
+    padding-top: 2px;
+    text-align: center;
+
+
+}
+
+.f {
+    color: rgba(240, 235, 235, 0.849);
+    width: 330px;
+    background-color: black;
+
+}
+
+.s {
+    color: rgba(240, 235, 235, 0.849);
+    width: 330px;
+    background-color: black;
+
+
+}
+
+.t {
+    color: rgba(240, 235, 235, 0.849);
+    width: 330px;
+    background-color: black;
+
+
+}
+
+.fourth {
+    color: rgba(240, 235, 235, 0.849);
+    width: 330px;
+    background-color: black;
+
+
+}
+
+.foot_3 {
+    height: auto;
+    display: flex;
+    float: left;
+}
+
+.foot_3 .ig1 {
+    padding-left: 50px;
+    background-color: black;
+
+}
+
+.foot_3 .ig2 {
+    padding-left: 350px;
+    background-color: black;
+
+}
+
+.ic {
+    height: 48px;
+    padding-top: 20px;
+    width: 539px;
+    color: aliceblue;
+    float: left;
+    background-color: black;
 }
 
 @media (max-width:376px) {
@@ -458,7 +531,7 @@
         height: 410px;
         width: auto;
         text-align: center;
-        padding-top:auto;
+        padding-top: auto;
 
     }
 
