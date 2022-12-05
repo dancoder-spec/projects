@@ -1,0 +1,466 @@
+* {
+    overflow-x: hidden;
+
+}
+
+.main {
+    height: 500px;
+    width: 1500px;
+    display: flex;
+}
+
+.main1 {
+    height: 500px;
+    width: 900px;
+}
+
+.main1 img {
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.mix {
+    display: flex;
+    height: 130px;
+    width: auto;
+
+}
+
+.losi {
+    padding-top: 55px;
+    padding-left: 200px;
+    display: flex;
+    font-size: 25px;
+    color: whitesmoke;
+
+
+
+}
+
+.losi .signup a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.losi .login a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.signup {
+    padding: 15px;
+    width: 80px;
+    height: 40px;
+    padding-left: 25px;
+
+
+
+}
+
+.login {
+    background-color: black;
+    padding: 15px;
+    width: 80px;
+    height: 40px;
+    padding-left: 25px;
+    color: aliceblue;
+
+}
+
+.text {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.search {
+    padding-left: 90px;
+}
+
+.search input {
+    height: 50px;
+    width: 400px;
+}
+
+.span1 {
+    height: 40px;
+    width: 40px;
+    padding: 18px 35px 18px 35px;
+    color: whitesmoke;
+    background-color: orange;
+    font-size: 20px;
+}
+
+.place {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.main2 {
+    height: 500px;
+    width: auto;
+}
+
+.main2 img {
+    height: 500px;
+    width: 500px;
+}
+
+
+.middle {
+    width: auto;
+    display: flex;
+    background-color: brown;
+}
+
+.middle2 {
+    background-color: white;
+
+}
+
+.middle2,
+.img1 {
+    padding-left: 50px;
+}
+
+.img2 {
+    padding-left: 100px;
+}
+
+
+.footer {
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+}
+
+.a {
+    height: 400px;
+    width: 25%;
+    text-align: center;
+}
+
+.b {
+    height: 400px;
+    width: 25%;
+    text-align: center;
+
+}
+
+.c {
+    height: 400px;
+    width: 25%;
+    text-align: center;
+
+}
+
+.d {
+    height: 300px;
+    width: 25%;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.foot2_0 {
+    height: auto;
+    width: auto;
+    display: flex;
+    padding-top: 2px;
+    text-align: center;
+
+
+}
+
+.f {
+    color: rgba(240, 235, 235, 0.849);
+    width: 330px;
+    background-color: black;
+
+}
+
+.s {
+    color: rgba(240, 235, 235, 0.849);
+    width: 330px;
+    background-color: black;
+
+
+}
+
+.t {
+    color: rgba(240, 235, 235, 0.849);
+    width: 330px;
+    background-color: black;
+
+
+}
+
+.fourth {
+    color: rgba(240, 235, 235, 0.849);
+    width: 330px;
+    background-color: black;
+
+
+}
+
+.foot_3 {
+    height: auto;
+    display: flex;
+    float: left;
+}
+
+.foot_3 .ig1 {
+    padding-left: 50px;
+    background-color: black;
+
+}
+
+.foot_3 .ig2 {
+    padding-left: 350px;
+    background-color: black;
+
+}
+
+.ic {
+    height: 48px;
+    padding-top: 20px;
+    width: 539px;
+    color: aliceblue;
+    float: left;
+    background-color: black;
+}
+
+@media (min-width:0px) and (max-width:376px) {
+    .main {
+        height: 500px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .main1 {
+        height: 500px;
+        width: 100%;
+    }
+
+    .main1 img {
+        padding-left: 40px;
+        /* padding-top: 10px; */
+    }
+
+    .mix {
+        height: 300px;
+        width: auto;
+        display: inline-block;
+
+    }
+
+    .losi {
+        /* padding-top: 55px; */
+        padding-left: 30px;
+        display: inline-block;
+        font-size: 25px;
+
+
+    }
+
+    .signup {
+        padding: 15px;
+        width: 80px;
+        height: 40px;
+        padding-left: 25px;
+
+
+    }
+
+    .login {
+        background-color: black;
+        padding: 15px;
+        width: 80px;
+        height: 40px;
+        padding-left: 25px;
+        color: aliceblue;
+    }
+
+    .text {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+
+    .main2 {
+        width: 500px;
+    }
+
+    .main2 img {
+
+        height: 450px;
+        width: 350px;
+    }
+
+    .search {
+        padding-left: 10px;
+    }
+
+    .search input {
+        height: 50px;
+        width: 150px;
+    }
+
+    .span1 {
+        height: 40px;
+        width: 40px;
+        padding: 18px 35px 18px 35px;
+        color: whitesmoke;
+        background-color: orange;
+        font-size: 20px;
+    }
+
+    .place {
+        padding-left: 00px;
+        padding-top: 10px;
+
+    }
+
+    .middle2 {
+        width: 10%;
+
+    }
+
+
+    .middle {
+        padding-top: 0px;
+        width: auto;
+        display: inline-block;
+        background-color: brown;
+    }
+
+    .middle,
+    img {
+        padding-top: opx;
+    }
+
+    .middle2,
+    .img1 {
+        padding-left: 40px;
+        width: auto;
+    }
+
+    .img1 {
+        height: 350px;
+        width: 250px;
+        padding-left: 10px;
+    }
+
+    .middle2,
+    .img2 {
+        padding-left: 40px;
+    }
+
+    .img2 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .footer {
+        background-color: black;
+        height: 1200px;
+        width: 100%;
+        color: white;
+        display: inline-block;
+    }
+
+    .a {
+        height: 400px;
+        width: 100%;
+    }
+
+    .b {
+        height: 350px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .c {
+        height: 350px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .d {
+        height: 300px;
+        width: 359px;
+        text-align: center;
+        padding-top: 60px;
+        padding-left: 00px;
+        background-color: black;
+
+    }
+
+    .foot2_0 {
+        height: auto;
+        width: auto;
+        display: inline-block;
+        padding-top: 2px;
+        text-align: center;
+
+
+    }
+
+    .f {
+        color: rgba(240, 235, 235, 0.849);
+        width: 359PX;
+        background-color: black;
+
+    }
+
+    .s {
+        color: rgba(240, 235, 235, 0.849);
+        width: 359PX;
+        background-color: black;
+
+
+    }
+
+    .t {
+        color: rgba(240, 235, 235, 0.849);
+        width: 359PX;
+        background-color: black;
+
+
+    }
+
+    .fourth {
+        color: rgba(240, 235, 235, 0.849);
+        width: 359PX;
+        background-color: black;
+
+
+    }
+
+    .foot_3 {
+        height: auto;
+    }
+
+    .foot_3 .ig1 {
+        padding-left: 1px;
+        background-color: black;
+
+    }
+
+    .foot_3 .ig2 {
+        padding-left: 0px;
+
+    }
+
+    .ic {
+     visibility: hidden;
+    }
+
+
+
+
+
+}
